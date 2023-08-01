@@ -1,0 +1,12 @@
+F:\Github\Volfbot\VolfbotServices\bin\Debug\net6.0\VolfbotServices.deps.json
+F:\Github\Volfbot\VolfbotServices\bin\Debug\net6.0\VolfbotServices.dll
+F:\Github\Volfbot\VolfbotServices\bin\Debug\net6.0\VolfbotServices.pdb
+F:\Github\Volfbot\VolfbotServices\obj\Debug\net6.0\VolfbotServices.csproj.AssemblyReference.cache
+F:\Github\Volfbot\VolfbotServices\obj\Debug\net6.0\VolfbotServices.GeneratedMSBuildEditorConfig.editorconfig
+F:\Github\Volfbot\VolfbotServices\obj\Debug\net6.0\VolfbotServices.AssemblyInfoInputs.cache
+F:\Github\Volfbot\VolfbotServices\obj\Debug\net6.0\VolfbotServices.AssemblyInfo.cs
+F:\Github\Volfbot\VolfbotServices\obj\Debug\net6.0\VolfbotServices.csproj.CoreCompileInputs.cache
+F:\Github\Volfbot\VolfbotServices\obj\Debug\net6.0\VolfbotServices.dll
+F:\Github\Volfbot\VolfbotServices\obj\Debug\net6.0\refint\VolfbotServices.dll
+F:\Github\Volfbot\VolfbotServices\obj\Debug\net6.0\VolfbotServices.pdb
+F:\Github\Volfbot\VolfbotServices\obj\Debug\net6.0\ref\VolfbotServices.dll
