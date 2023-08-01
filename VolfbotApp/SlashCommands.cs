@@ -98,22 +98,23 @@ namespace Volfbot
 
 			if (connection != null)
 			{
-				await context.EditResponseAsync(new DiscordWebhookBuilder().WithContent("I've connected to " + channel.Mention));
+				await context.Channel.SendMessageAsync("I've connected to " + channel.Mention);
 			}
 
-			var isPlaylist = await Media.IsPlaylistAsync(url);
+			Media media = await Media.GetMedia(context.Interaction.Id, context.Guild.Id, url, context.Member.Id);
+			bool isPlaylist = media.IsPlaylist();
 
 			if (isPlaylist)
 			{
 				await context.EditResponseAsync(new DiscordWebhookBuilder().WithContent("Playlist support is underdevelopment"));
 				return;
 			}
+			else
+			{
+				_ = media.PlayMedia(context);
 
-			Media media = new Media(context.Interaction.Id, context.Guild.Id, url, context.Member.Id);
-
-			media.GetAudioStream(context);
-
-			await context.EditResponseAsync(new DiscordWebhookBuilder().WithContent("The title of the media is: " + media.metadata.title));
+				await context.EditResponseAsync(new DiscordWebhookBuilder().WithContent("The title of the media is: " + media.metadata.title));
+			}
 		}
 	}
 }
